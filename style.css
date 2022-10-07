@@ -1,0 +1,28 @@
+#side {
+    width: 29%;
+    float: left;
+    background-color: lightblue;
+    height: 1000px;
+}
+#side div:first-child {
+    height: 35%;
+    background-color: rgb(237, 255, 255);
+}
+#side div:last-child {
+    height: 65%;
+    background-color: rgb(243, 231, 254);
+}
+
+#main{
+    width: 71%;
+    float: right;
+    background-color: rgb(253, 219, 219);
+    height: 1000px;
+}
+nav li {
+    list-style: none;
+    background-color: rgb(254, 240, 222);
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 20px;
+}
